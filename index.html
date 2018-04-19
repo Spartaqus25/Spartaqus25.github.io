@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+ 
+  </head>
+<body>
+  <!--HEADER -->
+    <header class="header">
+        <h1 class="header_name">Вероника Ростова</h1>
+        <h2 class="header_position">Менеджер по продажам</h2>
+        <p class="header_words">Подберу для Вас самые лучшие предложения. <br>Мои услуги абсолютно бесплатны</p>
+    </header>
+    <!--END_HEADER -->
+
+    <!--MAIN-->
+    <main>
+        <table class="service_table">
+            <thead>
+              <tr>
+                  <th colspan="2">Услуг</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                  <td  class="service_table_data_service-type"><span>Ручное бронирование</span></td>
+                  <td>11</td>
+              </tr>
+              <tr>
+                  <td  class="service_table_data_service-type"><span>Пакетные туры</span></td>
+                  <td>3</td>
+              </tr>
+              <tr>
+                  <td  class="service_table_data_service-type"><span>Отели</span></td>
+                  <td>1</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                 <td>Всего</td>
+                 <td>15</td>
+              </tr>
+            </tfoot>
+        </table>
+    </main>
+    <!--END_MAIN-->
+
+    <!--FOOTER-->
+    <footer>
+        <div class="reviews">
+            <h4 class="reviews_last">Последние отзывы</h4>
+            <h4 class="reviews_all">Все отзывы</h4>
+            <div class="reviews_icons">
+                <span class="reviews_icons_like">131</span>
+                <span class="reviews_icons_comment">14</span>
+            </div>
+        </div>
+        <div id="messages" class="messages">
+                <div class="messages_personal-message">
+                    <h5 class="messages_personal-message_name">Самуил<span class="messages_personal-message_name_date">13 октября 2011</span></h5>
+                    <p class="messages_personal-message_text">Привет, Верунь! ниче себе ты крутая, фотка класс!!!!</p>
+                </div>
+                <div class="messages_personal-message">
+                    <h5 class="messages_personal-message_name">Лилия Семеновна<span class="messages_personal-message_name_date">14 октября 2011</span></h5>
+                    <p class="messages_personal-message_text">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами?</p>
+                  </div>
+                <div class="messages_personal-message">
+                    <h5 class="messages_personal-message_name">Лилия Семеновна<span class="messages_personal-message_name_date">14 октября 2011</span></span></h5>
+                    <p class="messages_personal-message_text">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?</p>
+                  </div>
+        </div>
+        <form id="send">
+            <textarea id="send_comment-field" name="letter" form="send"></textarea>
+            <input type="button" class="send_send-button" value="Написать консультанту" onclick="append(this.form)">
+        </form>
+    </footer>
+    <!--END_FOOTER-->
+
+     <script src="js/script.js"></script>
+</body>
+</html>
